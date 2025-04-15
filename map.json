@@ -1,17 +1,16 @@
 {
-    "name": "extension for 2noScript",
-    "author": "2noScript",
-    "version": "0.0.1",
-    "description": "all truyen",
-    "rootPath": "",
+    "metadata": {
+      "author": "2noScript",
+      "description": "all truyen"
+    },
     "data": [
       {
         "name": "Truyenqq",
         "author": "2noScript",
-        "path": "",
+        "path": "https://raw.githubusercontent.com/wnetbooks/extension-wnetbooks-develop/main/truyenqq/plugin.zip",
         "version": 0,
         "domain": "truyenqqto.com",
-        "icon": "",
+        "icon": "https://raw.githubusercontent.com/wnetbooks/extension-wnetbooks-develop/main/truyenqq/icon.png",
         "description": "Đọc truyện trên trang Truyenqq",
         "type": "comic",
         "locale": "vi_VN"
