@@ -1,0 +1,21 @@
+{
+    "name": "extension for 2noScript",
+    "author": "2noScript",
+    "version": "0.0.1",
+    "description": "all truyen",
+    "rootPath": "",
+    "data": [
+      {
+        "name": "Truyenqq",
+        "author": "2noScript",
+        "path": "",
+        "version": 0,
+        "domain": "truyenqqto.com",
+        "icon": "",
+        "description": "Đọc truyện trên trang Truyenqq",
+        "type": "comic",
+        "locale": "vi_VN"
+      }
+    ]
+  }
+  
