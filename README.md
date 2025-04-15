@@ -41,7 +41,33 @@ async function execute(utils, url) {
 
 2. Utils components
 
-   - `page`: playwright page instance. [docs](https://playwright.dev/docs/api/class-page) 
+   - `page`: playwright page instance. [docs](https://playwright.dev/docs/api/class-page)
+     ```js
+     await page.goto(url);
+     const title = await page.title();
+     ```
+   - `useSleep`: sleep function.
+     ```js
+     await useSleep(1); // sleep for 1 s
+     ```
+   - `useFetch`: fetch function.
+     ```js
+     const data = await useFetch('https://api.example.com/data', {
+       method: 'POST',
+       body: JSON.stringify({ query: 'search' })
+     });
+     ```
+   - `usePageFetch`: fetch function with page instance.
+     ```js
+     const response = await usePageFetch(page, 'https://example.com/api', {
+       headers: { 'Content-Type': 'application/json' }
+     });
+     ```
+   - `useBlockResource`: block resource function.
+     ```js
+     await useBlockResource(page, ['image', 'stylesheet', 'script']);
+     // Now page will load without these resources
+     ```
     
 
     
